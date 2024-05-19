@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type {Config} from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      borderColor: {
+        "section-separator": "rgb(14,64,128)",
+      },
+      borderWidth: {
+        "section-separator": ".3rm",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
